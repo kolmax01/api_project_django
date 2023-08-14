@@ -7,7 +7,7 @@
 - nnmodels (добавление/редактирование/удаление метаинформации об используемых нейросетях конкретного юзера)
 
 ## getting started
-1. docker-compose up
+1. git clone && docker-compose up
 2. заходим на localhost:8000/api/docs/ (откроется swagger)
 3. создаем юзера через метод /api/user/create/ (любой пароль от 8 символов)
 4. получаем токен через метод /api/user/token/
